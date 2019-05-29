@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 // Define the schema
 module.exports = mongoose.model('User', {
     user_id: {
-        type: number,
+        type: Number,
         default: ''
     },
 
