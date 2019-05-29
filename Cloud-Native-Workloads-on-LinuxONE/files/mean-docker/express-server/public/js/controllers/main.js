@@ -102,7 +102,7 @@ angular.module('Controller', [])
 				});
 		};
 	}])
-	.controller('wishController', ['$scope','$http','Wishes', function($scope, $http, Users) {
+	.controller('wishController', ['$scope','$http','Wishes', function($scope, $http, Wishes) {
 		$scope.formData = {};
 		$scope.loading = true;
 
